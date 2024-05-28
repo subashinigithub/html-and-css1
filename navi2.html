@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .action{
+        background-color: blue;
+        overflow: hidden;
+
+    }
+    .action a{
+        background-color: black;
+        color: darkgreen;
+        float: left;
+        padding: 50px;
+    
+    }
+    .event{
+        float: left;
+        overflow: hidden;
+    }
+    .dropbtn{
+        color: darkslateblue;
+        font-size: larger;
+        background-color: peachpuff;
+        padding: 20px;
+    }
+    .years{
+        color: gold;
+        font-size: larger;
+        background-color: maroon;
+        padding: 20px;
+    }
+    .years a{
+        color: darkmagenta;
+        display: none;
+        background-color: olive;
+        text-align: center;
+    }
+    .event:hover, .years{
+        background-color: mediumslateblue;
+    }
+    .event:hover .years a{
+        display: block;
+    }
+
+</style>
+<body>
+    <div class="action">
+        <a href="#">Company</a>
+        <a href="#">home</a>
+        <a href="#">About</a>
+        <div class="event">
+            <button class="dropbtn"><a href="#">Gallery</a></button>
+            <div class="years">
+                <a href="#">2019</a>
+                <a href="#">2018</a>
+                <a href="#">2017</a>
+                </div>
+        </div>
+       
+                    <a href="#">contact</a>
+                    <a href="#">others</a>
+                
+    </div>
+    <i class="fa-solid fa-magnifying-glass"></i>
+
+    <i class="fa-solid fa-pepper-hot"></i>
+</body>
+</html>

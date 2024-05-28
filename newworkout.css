@@ -1,0 +1,17 @@
+header{
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+body{
+    background-color: beige;
+    border: 2px solid salmon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chartreuse;
+    padding: 20px;
+
+}
+.new1{
+    float: right;
+}

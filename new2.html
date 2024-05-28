@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,th,td{
+        text-align-last:left;
+        border: 2px solid gray;
+        border-collapse: collapse;
+    }
+    tr:nth-child(odd){
+        background-color: teal;
+    
+    }
+    tr:nth-child(even){
+        background-color: pink;
+        
+    }
+    td:hover{
+        background-color: tomato;
+        padding:30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    
+    tr:hover{
+        background-color: blue;
+        padding: 40px;
+    }
+</style>
+<body>
+    <caption>invoice</caption>
+    <p>heeloooo</p>
+    <table>
+        <tr>
+            <th>Item/Desc</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>price</th>
+        </tr>
+        <tr>
+        <td>paperclips(Box)</td>
+        <td>100</td>
+        <td>1.15</td>
+        <td>115.000</td>
+        </tr>
+        <tr>
+            <td>paper(case)</td>
+            <td>10</td>
+            <td>45.99</td>
+            <td>166.000</td>
+        </tr>
+        <tr>
+            <td>wastepaper Baskets</td>
+            <td>2</td>
+            <td>17.99</td>
+            <td>888.990</td>
+        </tr>
+        <tr>
+            <td colspan="3">subtotal</td>
+            <td>900.980</td>
+        </tr>
+        <tr>
+            <td colspan="2">tax</td>
+            <td>7%</td>
+            <td>42.76</td>
+        </tr>
+        <tr>
+            <td colspan="3">total</td>
+            <td>897.567</td>
+        </tr>
+    </table>
+</body>
+</html>

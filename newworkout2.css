@@ -1,0 +1,35 @@
+header{
+    
+    border: 2px solid white;
+    text-align: center;
+}
+body{
+    background-color:brown;
+    border: 2px solid crimson;
+    padding: 2px;
+
+}
+
+h1{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-shadow: 4px 9px 7px red;
+}
+.finalall{
+    background-color: aquamarine;
+    height: 20px;
+    width: 20px;
+    margin: 29px;
+}
+img{
+    height: 40px;
+    width: 20px;
+    margin: 300px;
+}
+
+.box{
+    
+    padding: 60px;
+box-shadow: 5px 5px #ff0000 , 7px 7px green, 50px 50px blue ;
+}
+
