@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        /* .a{
+            background-color: yellow;
+            vertical-align: text-bottom;
+            text-decoration-line: dotted;
+            text-decoration-color: red;
+            border:1px solid violet;
+            text-decoration-style: dashed;
+            cursor: pointer;
+            letter-spacing: 12px;
+            text-transform: uppercase;
+            text-wrap: nowrap;
+            word-wrap: break-word;
+        }
+        .b{
+     font-weight:bold;
+     font-style: oblique;
+     word-spacing: 10px;
+     white-space: wrap;
+        } */
+/* {
+
+}
+img{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+    padding: 23px;
+}
+
+p.b{
+    overflow-y: scroll;
+    border:1px solid red;
+    height:  5px;
+    width: 300px;
+    float: right;*
+    text-wrap: wrap;
+    margin:200px;
+}
+div{
+    float: right;
+    padding: 2px;
+    border:2px solid salmon;
+    border-radius: 10px;
+}
+div:hover{
+    background-color: darkseagreen;
+} */
+
+*{
+    box-sizing: border-box;
+}
+.img-container{
+    float: left;
+    width: 33px;
+    padding: 5px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+        </style>
+     <body>  
+        <div class="clearfix">
+     <div class="img-container">      
+    <img src="./food.jpg">   
+   </div>
+   <div class="img-container">
+    <img src="./book.jpg">
+   </div>
+        </div>
+</body>
+</html>

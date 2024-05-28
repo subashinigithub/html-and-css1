@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    .navbar {
+    overflow: hidden;
+    background-color: tomato;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow:darkcyan;
+    z-index: 1;
+  }
+  
+  .dropcontent a {
+    float: none;
+    color:  seagreen;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropcontent a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropcontent {
+    display: block;
+  }
+    h1{
+        text-align: center;
+    }
+    img{
+      height: 300px;
+      width: 400px;
+    }
+.a{
+  float: right;
+  padding: 20px;
+  margin: 100px;
+  position: absolute;
+  left: 350px;
+  }
+.left{
+    float: right;
+    margin:5px;
+    border:11px solid red;
+    }
+    ul{
+      background-color: darkcyan;
+      border:2px solid grey;
+    }
+    .image{
+    display: flex;
+    border: 10px solid violet;
+    outline-style: dashed;
+
+    }
+    .bck{
+      background-image: url(./bck.jpg);
+      padding: 100px;
+      color: greenyellow;
+      margin: 150px;
+      height: 300px;
+      width: 600px;
+      
+      
+    }
+    .head{
+      text-align: center;
+    }
+    marquee{
+      color: red;
+    }
+  
+
+
+
+</style>
+<body>
+    <i class="fa-solid fa-music"></i>
+    <div class="navbar">
+        <a href="#">File</a>
+        <a href="#">Edit</a>
+        <div class="dropdown">
+            <button class="dropbtn">selection</button>
+            <div class="dropcontent">
+            <a href="./ani.html">save</a>
+            <a href="#">saveas</a>
+            <a href="#">copy</a>
+            <a href="#">paste</a>
+         </div>
+         </div>
+        <a href="#">view</a>
+        <a href="#">Go</a>
+</div>
+<h1>New Web Page</h1>
+<section>
+    <img src="/food.jpg">
+    <div class="left">
+    <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> In labore eveniet cupiditate praesentium minus similique facilis repellat omnis asperiores voluptatibus aliquid sequi excepturi dolores maiores iure, <br>molestiae corporis quo nobis.
+    </div>
+    </section>
+<section>
+<h3>List!!!!</h3>
+<ul>
+    <li>books</li>
+    <li>candy</li>
+    <li>cookies</li>
+</ul>
+</section>
+<section>
+  <fieldset>
+    <legend>customer details</legend>
+    <label for="firstname">Usertname:</label>
+    <input type="text" id="firstname" value=""><br><br>
+    <label for="phone">contact no:</label>
+    <input type="text" id="phone no" value=""><br><br>
+    <label for="email">email id:</label>
+    <input type="email" id="email" value="">
+  </fieldset>
+<div class="bck">
+  <h1 class="head">Welcome To All!!!!!!!!!!!!!!!!!!!</h1>
+  <h2><marquee>My showroom</marquee></h2>
+
+</div>
+<div class="image">
+  <h2><blockquote>Sponsers:</blockquote></h2>
+  <img src="./book.jpg">
+  <img src="./ssteddy.jpg">
+  <img src="./barbie.jfif">
+</div>
+</section>
+
+
+</body>
+</html>
