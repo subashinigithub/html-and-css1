@@ -1,0 +1,87 @@
+/* Resetting some default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.container-fluid {
+    background-color: grey;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    border: 2px solid grey;
+    position: sticky;
+    width: 100%;
+}
+
+.navbar-brand img {
+    border-radius: 50px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item a {
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item a:hover {
+    background-color: rgb(158, 153, 160);
+}
+
+.fixed-top {
+    border: 2px solid grey;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+}
+
+.fixed-top img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Adjusting padding and margin for the search bar */
+.d-flex {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.d-flex input {
+    width: 100%;
+}
+
+.d-flex button {
+    height: 38px;
+    background-color: green;
+    color: black;
+}
+
+/* Custom styles for the footer */
+ body {
+      font-family: Arial, sans-serif;
+    }
+#footer {
+        background-color: #f8f9fa;
+        padding: 30px 0;
+    }
+  
+#footer h4 {
+        color: #333;
+    }
+  
+#footer p {
+        color: #666;
+    }
+  
+.social-icons i {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #333;
+    }
