@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        background-color: aqua;
+    }
+    .flex-container {
+  display: flex;
+  /* Direction of items, default is row */
+  flex-direction: row; /* or column, row-reverse, column-reverse */
+  
+  /* Control wrapping of items */
+  flex-wrap: nowrap; /* or wrap, wrap-reverse */
+  
+  /* Alignment */
+  justify-content: center; /* Main axis alignment: flex-start, flex-end, center, space-between, space-around */
+  align-items: center; /* Cross axis alignment: flex-start, flex-end, center, baseline, stretch */
+}
+
+.item {
+  /* Flex properties for individual items */
+  flex: 1; /* Flex-grow, flex-shrink, and flex-basis combined */
+  /* Other styling */
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+</style>
+<body>
+    <div class="flex-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
+      
+</body>
+</html>
