@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+       background-color: brown;
+       border: 2px solid gray; 
+       border-radius: 90px 60px 90px 60px;
+       padding: 22PX;
+       width: 70px;
+       position: relative;
+       animation-name: example;
+       animation-duration: 2s;
+       animation-iteration-count: 5;
+       animation-direction:alternate;
+    
+       
+    }
+    @keyframes example{
+        from{background-color: greenyellow;}
+        to{background-color: magenta;}
+        0%{background-color: red; left:0px; top: 100px;}
+        25%{background-color: violet; left: 200px; top: 100px;}
+        50%{background-color: yellow; left: 200px; top: 200px;}
+        100%{background-color: royalblue; left: 0; top: 200px;}
+
+
+
+
+    }
+</style>
+<body>
+    <div>
+        student
+    </div>
+</body>
+</html>
