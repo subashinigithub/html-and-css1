@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+input[type=text],input[type=password]{
+    background-color: aquamarine;
+}
+input[type=submit],input[type=reset]:hover{
+    background-color: red;
+}
+ul{
+    background-color: darkgrey;
+
+    list-style-type: decimal;
+    list-style-position: outside;
+    outline-style: dashed;
+    outline-color: coral;
+    outline-offset: 15px;
+    }
+    .a{
+        background-color: yellow;
+        position: absolute;
+        left: 5opx;
+        top: 50px;
+        margin: 300px;
+        padding: 100px;
+    }
+    .b{
+        background-color: blue;
+        position: absolute;
+        margin: 300px;
+        left: 30px;
+        top:75px;
+        padding: 70px;
+    }
+    .c{
+        background-color: fuchsia;
+        position: absolute;
+        left: 40px;
+        top:100px;
+        margin: 300px;
+        padding: 50px;
+    }
+
+</style>
+<body>
+    <div>
+    <form>
+        <label for="username">username</label>
+        <input type="text" id="username" value=""><br>
+        <label for="password">password</label>
+        <input type="password" id="password" value=""><br>
+        <label for="male">male</label>
+        <input type="radio" id="male" value=""><br>
+        <label for="female">female</label>
+        <input type="radio" id="female" value=""><br>
+        <input type="submit"><br>
+        <input type="reset"><br>
+        </form>
+        <div>
+            <ol>
+                <li>sun</li>
+                <li>earth</li>
+                <li>mars</li>
+            </ol>
+            <ul>
+                <li>uranus</li>
+                <li>neptune</li>
+                <li>saturn</li>
+            </ul>
+        </div>
+        <div class="a">student1</div>
+        <div class="b">student2</div>
+        <div class="c">student3</div>
+        </div>
+</body>
+</html>

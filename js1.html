@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #demo{
+        background-color: chocolate;
+        
+    }
+    button:hover{
+        background-color: chartreuse;
+
+    }
+
+</style>
+<body>
+    <h1>javascript webpage</h1> 
+    <p id="demo">Booleans can have two values</p>
+   <button onclick="myfunction()">click me</button>
+    <script>
+        function myfunction(){
+            if(window.confirm("Do you really want to delete")){
+                document.getElementById("demo").innerHTML="you have successfully deleted this file";
+            }
+        }
+     
+
+
+    </script>
+</body>
+</html>
